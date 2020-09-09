@@ -1,0 +1,17 @@
+sep-1 : first install python and pip
+
+step-2 : open cmd and execute commands
+
+	 #create virtualenv with any name
+
+	virtualenv env_name
+
+	#then cd to env_name/Scripts/
+
+	#execute 
+	activate.bat
+	
+	#then cd to cd ../..
+
+step-3: then install requirement.txt file using below command
+	pip install -r requirements.txt
